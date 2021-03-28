@@ -6,6 +6,7 @@ name: eShop BUild
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
+    paths:
     - 'src/Services/Coupon/**'
     - 'tests/Services/Coupon/**'
     branches: [ main ]
